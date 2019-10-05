@@ -1,0 +1,22 @@
+{
+  "name": "js-url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": "https://github.com/ismailah28/JS-URL-Shortener.git",
+  "author": "Ismaila Hassan <ismailah28@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
